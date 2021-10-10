@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Adiding a Border to Table</h1>
+    <table>
+        <tr>
+            Collection Of fav food items
+        <th>Name of the item</th>
+        <th>city</th>
+        </tr>
+         <tr>
+            <td>panipuri</td>
+            <td>Hyd</td>
+        </tr>    
+        <tr>
+            <td>Biryani</td>
+            <td>Pdtr</td>
+        </tr>
+        <tr>
+           <td>panipuri</td>
+           <td>Hyd</td>
+       </tr>    
+       <tr>
+           <td>Biryani</td>
+           <td>Pdtr</td>
+       </tr>
+    </table>
+    <style>
+        table,th{
+            border:50px solid limegreen;
+            border-width:thin;
+            border-style:solid;
+            table-layout:auto;
+            width: 1000px;
+            padding:20px;
+        }
+        tr:nth-child(odd){
+            background-color: deeppink;
+            padding:30px;
+        }
+        tr:hover {
+            background-color: navy;
+            padding: 30px;
+        }
+        tr {
+            padding:40px;
+        }
+    </style>
+</body>
+</html>
+
+

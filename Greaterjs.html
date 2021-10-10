@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+    <html>
+
+<head>
+
+<script>
+
+function jsFun(){
+
+var val1, val, elem;
+
+val = parseInt(document.getElementById("num").value);
+
+val1 = parseInt(document.getElementById("num2"),value);
+
+
+
+
+
+if (val){
+
+if (val <100)
+
+document.getElementById("paraTwo").innerHTML= "Less than 100";
+
+else
+
+document.getElementById("paraTwo").innerHTML= "Greater than 100";
+
+}
+
+}
+</script>
+
+</head>
+
+
+
+<body>
+
+
+
+<p id="paraOne">Enter a Number: <input id="num">
+
+<input id="num2">
+
+<button onclick="jsFun()">Enter</button></p>
+
+<p id="paraTwo"></p>
+
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .body {
+            padding: 40px;
+            margin: 0%;
+
+        }
+        .header {
+            background-color: rgb(212,41,133);
+            text-align: center;
+            padding: 25px;
+            color: yellowgreen;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .navbar a {
+            background-color: black;
+            color: coral;
+            padding: 30px;
+            float: left;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: left;
+
+        }
+        .navbar a:hover{
+            color: black;
+            background-color: rgb(233,113,177);
+
+        }
+        .footer{
+            background-color: green;
+            text-align: center;
+        }
+
+        .column{
+            float: left;
+            width: 33.33;
+            padding: 15px;
+        }
+        .row::after{
+            content: "";
+            display: table;
+            clear: both;
+            @media screen and (max-width:600px) {
+                .column{
+                    width:100%;
+                }
+            }
+        }
+    </style>
+    <div class="header">
+        <h1>welcome to my Website</h1>
+    </div>
+    <div class="navbar">
+        <a href="#">home page</a>
+        <a href="#">Contact us</a>
+        <a href="#">About us</a>
+        <a href="#">first page</a>
+        <a href="#">second page</a>
+        <a href="#">Third page</a>
+        <a href="#">join this page</a>
+        <a href="#">for us</a>
+        <a href="#">fill the form</a>
+
+    </div>
+    <div class="row">
+        <div class="column">
+            <h2>Column1</h2>
+            <p>bgdcuyfgjchgwyfjhcbdcydfgcwdhcbdvcwdcdmnbc anxckehfajbcmncgdmcgdm</p>
+        </div>
+
+        <div class="column">
+            h2>Column2</h2>
+            <p>bgdcuyfgjchgwyfjhcbdcydfgcwdhcbdvcwdcdmnbc anxckehfajbcmncgdmcgdm</p>
+        </div>
+
+        <div>
+            h2>Column3</h2>
+            <p>bgdcuyfgjchgwyfjhcbdcydfgcwdhcbdvcwdcdmnbc anxckehfajbcmncgdmcgdm</p>
+        </div>
+    </div>
+    <div class="footer">
+        <h2>footer section of the website</h2>
+    </div>
+</body>
+</html>
