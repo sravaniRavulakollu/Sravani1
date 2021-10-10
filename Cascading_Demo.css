@@ -1,0 +1,10 @@
+body{
+    color: rgba(100,0,255,0.2);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-color: blueviolet;
+    background-color: salmon;
+    background-image: url(':/Images/earth.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
